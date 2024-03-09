@@ -33,6 +33,7 @@
         "southindia",
         "uksouth",
         "swedencentral",
+        "eastus",
         "westus"
       ],
       "metadata": {
@@ -81,6 +82,7 @@
     "dalleLocation": {
       "type": "string",
       "allowedValues": [
+        "eastus",
         "swedencentral"
       ],
       "metadata": {
@@ -107,6 +109,7 @@
       "type": "string",
       "allowedValues": [
         "swedencentral",
+        "eastus",
         "westus"
       ],
       "metadata": {
