@@ -1,6 +1,6 @@
 # bodge of two examples to see if we can get through permissions we are boxed in with 
 
-name: Build and deploy Node.js app to Azure Web App - azc240312-webapp-2m45jkyejq2qq
+name: 2403013-Nextjs-Deploy
 
 # When this action will be executed
 on:
