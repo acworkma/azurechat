@@ -103,14 +103,14 @@ jobs:
             az webapp config set --startup-file="node server.js" -n ${{ secrets.AZURE_APP_SERVICE_NAME }} -g $rg -o none
             sleep 10
 
-      - name: 'Deploy to Azure Web App'
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v2
-        with:
-          app-name: 'azc240312-webapp-2m45jkyejq2qq'
-          slot-name: 'Production'
-          package: .
-          
+    #  - name: 'Deploy to Azure Web App'
+    #   id: deploy-to-webapp
+    #    uses: azure/webapps-deploy@v2
+    #    with:
+    #      app-name: 'azc240312-webapp-2m45jkyejq2qq'
+    #      slot-name: 'Production'
+    #      package: .
+
       - name: 🚀 Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
